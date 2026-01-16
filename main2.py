@@ -65,6 +65,6 @@
 # if b != 0 and a / b > 1:   # правая часть НЕ выполнится!
 #     print("Не будет деления на ноль")
 
-username = ""
-user = username or "Гость"   # если пустая строка > "Гость"
-print(user)
+# username = ""
+# user = username or "Гость"   # если пустая строка > "Гость"
+# print(user)

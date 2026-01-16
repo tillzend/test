@@ -1,5 +1,5 @@
 
-num_tickets = 237
+num_tickets = int(input("Введите число: "))
 bus_capacity = 48 
 
 full_bus_quantity = num_tickets // bus_capacity

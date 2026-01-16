@@ -8,10 +8,11 @@ num_tickets_left = num_tickets % bus_capacity
 empty_seats = 0
 no_full_bus = False
 
-if num_tickets_left >= bus_capacity / 2 :
-    bus_quantity += 1
-    no_full_bus = True
-    empty_seats = num_tickets_left - bus_capacity
+if num_tickets_left:
+    if num_tickets_left >= bus_capacity / 2 :
+        bus_quantity += 1
+        no_full_bus = True
+        empty_seats = num_tickets_left - bus_capacity
 
 
 print("count of full bus + 1: ", bus_quantity)

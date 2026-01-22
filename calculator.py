@@ -9,7 +9,7 @@ user_value_second = float(input("enter second value: "))
 
 answer = 0 
 round_number = 0
-round_option = str
+round_option = ""
 
 
 if user_value_first == 0 or user_value_second == 0 : # check if any value equal zero

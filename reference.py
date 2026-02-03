@@ -44,8 +44,8 @@ import sys
 
 # print(user_new)
 
-mask = "i_t_s_ _a_ _s_e_c_r_e_t_ _w_o_r_d"
+# mask = "i_t_s_ _a_ _s_e_c_r_e_t_ _w_o_r_d"
 
-real = mask[0:33:1]
+# real = mask[0::2]
 
-print(real)
+# print(real)

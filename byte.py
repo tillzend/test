@@ -15,3 +15,19 @@
 
 # print (message)
 
+# //////// EXAMPLE FOR USE .format ///////
+
+# name = "rahuk user"
+# id = 1.2345
+
+# message = "wasap {n} , your id is : {r:.3f}"
+
+# message = message.format(n=name , r=id)
+# print(message)
+
+'''
+prior:
+1 - f
+2 - .format
+'''
+

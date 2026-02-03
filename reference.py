@@ -38,9 +38,14 @@ import sys
 # else :
 #     print("false")
 
-user = "http://www.google.com"
+# user = "http://www.google.com"
 
-user_new = user.replace("http", "https")
+# user_new = user[0:5]
 
-print(user_new)
+# print(user_new)
 
+mask = "i_t_s_ _a_ _s_e_c_r_e_t_ _w_o_r_d"
+
+real = mask[0:33:1]
+
+print(real)

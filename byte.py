@@ -86,6 +86,6 @@ prior:
 # path = 'C:\\Users\\name\\Desktop' # экранирование вин пути 
 # при работе с файлами пишем обычный / 
 
-# s = "\U0001F600"
+# s = "\U0001F600" #ascii emoji
 
 # print(path)

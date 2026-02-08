@@ -73,11 +73,19 @@ prior:
 # выведите "Эмоциональное сообщение", иначе — "Обычное сообщение".
 
 
-text = input("Введите сообщение: \n")
+# text = input("Введите сообщение: \n")
 
-text = text.rstrip()[-1]
+# if len(text) > 6 and text.endswith("!") :
+#     print ("emotional damage!!")
+# else:
+#     print('damage')
 
-if len(text) > 6 and text.endswith("!") :
-    print ("emotional damage!!")
-else:
-    print('damage')
+
+# text = 'i don\'t want vegetables , Mom!'
+
+# path = 'C:\\Users\\name\\Desktop' # экранирование вин пути 
+# при работе с файлами пишем обычный / 
+
+# s = "\U0001F600"
+
+# print(path)

@@ -1,23 +1,26 @@
-text = input("enter a string(enter 'q' for quit): \n")
-
-point = 0
-count = 0
 
 while True:
+
+    index = 0
+    count = 0
+
+    text = input("enter a string(enter 'q' for quit): \n")
 
     if text == "q":
         print(" --- EXIT --- ")
         break
 
-    while point < len(text):
-        point += 1
-        if text[point] == " ":
+    while index < len(text):
+
+        current_symbol = text[index]
+
+        if current_symbol == " ":
             count += 1
-    else:
-        print(point)
-        print(count)
-        point = 0
-        count = 0 
 
-    text = input("enter a string(enter 'q' for quit): \n")
+        index += 1
 
+    count_wrd = count + 1
+    print("words : ", count_wrd )
+
+
+    

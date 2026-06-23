@@ -2,7 +2,7 @@
 while True:
 
     index = 0
-    count = 0
+    count = 0   
 
     text = input("enter a string(enter 'q' for quit): \n")
 
@@ -11,10 +11,8 @@ while True:
         break
 
     while index < len(text):
-
-        current_symbol = text[index]
-
-        if current_symbol == " ":
+        
+        if text[index] == " ":
             count += 1
 
         index += 1
@@ -23,4 +21,16 @@ while True:
     print("words : ", count_wrd )
 
 
+# Вариант с методом .count
+
+# while True:
+#     text = input("enter a string(enter 'q' for quit): \n")
+
+#     if text == "q":
+#         print(" --- EXIT --- ")
+#         break
+
+#     spaces = text.count(" ")
     
+#     count_wrd = spaces + 1
+#     print("words : ", count_wrd)
